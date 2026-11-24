@@ -7,7 +7,6 @@
   <meta name="author" content="Diamond Christian">
   <meta name="keywords" content="Html">
   <link rel="stylesheet" href="./pages/index.css">
-  <!-- <link rel="stylesheet" href="./blocks/page.css"> -->
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>Spots</title>
 </head>
@@ -17,7 +16,19 @@
       <img class="header__logo" src="./images/spots-logo.png" alt="Spots Logo">
   </header>
   <main class="content">
-    <section class="profile"></section>
+    <section class="profile">
+      <img src="./images/avatar.jpg" alt="Bessie Coleman" class="profile__avatar">
+      <div class="profile__column">
+        <h1 class="profile__name">Bessie Coleman</h1>
+        <p class="profile__description">Civil Aviator</p>
+        <button class="profile__edit-btn">
+          <img src="./images/pencil-icon.svg" alt="Pencil Icon" class="profile__">Edit Profile
+        </button>
+        <button class="profile__add-btn">
+          <img src="./images/plus-icon.svg" alt="Plus Icon" class="profile__">New Post
+        </button>
+      </div>
+    </section>
     <section class="cards"></section>
   </main>
   <footer class="footer">
