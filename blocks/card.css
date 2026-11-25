@@ -1,13 +1,27 @@
+.card {
+  width: 413px;
+}
+
+
+
 .card__image {
   height: 445px;
   width: 413px;
   object-fit: cover;
+  display: block;
+}
+
+.card__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .card__like-btn {
+  width: 23px;
+  height: 20px;
   background-image: url(../images/like-icon.svg);
   background-color: transparent;
   border: none;
-  width: 23px;
-  height: 20px;
+  opacity: 40%;
 }
